@@ -3,7 +3,7 @@ cask "urlscan-cli" do
   name "urlscan-cli"
   desc ""
   homepage ""
-  version "0.0.4"
+  version "0.0.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "urlscan-cli" do
   on_macos do
     on_intel do
       url "https://github.com/urlscan/urlscan-cli/releases/download/v#{version}/urlscan-cli_Darwin_x86_64.tar.gz"
-      sha256 "6d4159a558e992e4c8fd021ac26a68115bbff515761b0fd4032c319aeec357ee"
+      sha256 "6ae2098f3daaa91fd5c54ae50a3eb41ebea5b935e0d8be71bc58d68ffd2b49b9"
     end
     on_arm do
       url "https://github.com/urlscan/urlscan-cli/releases/download/v#{version}/urlscan-cli_Darwin_arm64.tar.gz"
-      sha256 "b7c5c83c06389e6cd663ac289d328a02719126c814532fc6d2a59962c7081236"
+      sha256 "7a88b6bb8b8f49af8e57be15565fb5da2677e9360916e2eafdf0b55a1f291ac1"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/urlscan/urlscan-cli/releases/download/v#{version}/urlscan-cli_Linux_x86_64.tar.gz"
-      sha256 "587bf5723269fff4600eb1eb9886560c57c8495782208a38ef7338ff75f5af8f"
+      sha256 "f3ac20879db832f432f5a81c5cfeedff1d34ea2ac88004216900d16290904ff6"
     end
     on_arm do
       url "https://github.com/urlscan/urlscan-cli/releases/download/v#{version}/urlscan-cli_Linux_arm64.tar.gz"
-      sha256 "c67b3a23022ec550d42fe2822cca2674ea7cd49d614a2309b4d0cc8f8d03aa7c"
+      sha256 "fc637aa50775378b510332ed362ac38e333a2d62b3126838d7e1c1338c393186"
     end
   end
 
